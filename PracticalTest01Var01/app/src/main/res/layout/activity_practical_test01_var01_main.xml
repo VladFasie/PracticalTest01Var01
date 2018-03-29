@@ -1,18 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ro.pub.cs.systems.eim.practicaltest01var01.PracticalTest01Var01MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/N"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="N"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <Button
+        android:id="@+id/V"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/Navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navigate to secondary activity"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <Button
+        android:id="@+id/S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+</LinearLayout>
